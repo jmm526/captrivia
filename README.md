@@ -1,5 +1,9 @@
 # CapTrivia: Cap Table Trivia Game
 
+## No Pull Requests
+
+Please do not open a PR on this repository! We can not accept it, if there's something plainly wrong please let our team know in another way.
+
 ## Introduction
 Welcome to CapTrivia, a cap table trivia game developed by Pulley. This project is part of our engineering interview process, designed to assess your coding skills and problem-solving abilities. Currently, CapTrivia is a simple, single-player game. Your challenge is to develop it into a multiplayer experience.
 
