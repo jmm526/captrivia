@@ -54,6 +54,9 @@ As a baseline for someone proficient in the stack we expect this challenge to ta
 - **Creativity**: We appreciate innovative approaches and ideas.
 - **Tool Utilization**: Feel free to use tools like GitHub Copilot and ChatGPT. We value efficiency and resourcefulness.
 
+## Decision Making
+A lot of this problem is underspecified, just like tasks in a professional software engineering environment often are.  Please use your best judgment in deciding any product or engineering choices you may encounter to strike a balance between great functionality and pragmatically completing the challenge in a reasonable amount of time.  It might be helpful to leave a `DECISIONS.md` or similar explaining any particular decisions you make.
+
 ## After Submission
 Once we receive your solution, we'll schedule a live code pairing session. Here, you'll walk us through your code, and we'll collaboratively work on an additional small feature.
 
