@@ -21,7 +21,7 @@ Welcome to CapTrivia, a cap table trivia game developed by Pulley. This project 
 ## Tasks
 Please complete the task appropriate to the position you are applying for.
 
-### Software Engineers
+### Software Engineers, Engineering Managers, Senior Engineering Managers, and Directors of Engineering
 1. **Refactor and Enhance**: The current code is intentionally basic and contained in single files for both front and back ends. Your first task is to clean up and structure the codebase.
 2. **Implement Multiplayer Functionality**: 
     - Allow users to start a new game and generate a shareable link.
