@@ -1,4 +1,4 @@
-module main
+module github.com/jmm526/captrivia
 
 go 1.21.4
 
