@@ -10,7 +10,7 @@ services:
       DB_USER: postgres
       DB_PASSWORD: postgres
       DB_NAME: captrivia
-      DB_PORT: 5432
+      DB_PORT: 5555
     depends_on:
       - db
     volumes:
@@ -38,7 +38,7 @@ services:
   db:
     image: postgres:13-alpine
     ports:
-      - "5432:5432"
+      - "5555:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres

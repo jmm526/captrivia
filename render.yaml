@@ -19,7 +19,7 @@ services:
       - key: DB_NAME
         value: captrivia
       - key: DB_PORT
-        value: "5432"
+        value: "5555"
     healthCheckPath: /
     disk:
       name: backend-disk

@@ -5,7 +5,7 @@
  WORKDIR /app
 
  # Copy the source code into the container
- COPY . .
+ COPY . ./
 
  # Build the Go app
  RUN go build -o main .
@@ -14,4 +14,4 @@
  EXPOSE 8080
 
  # Command to run the executable
- CMD ["./main"]
+ CMD ["main"]
