@@ -6,6 +6,7 @@ const API_BASE = process.env.REACT_APP_BACKEND_URL || "http://localhost:8080";
 
 function App() {
   const [gameSession, setGameSession] = useState(null);
+  const [playerSession, setPlayerSession] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -24,6 +25,7 @@ function App() {
       });
       const data = await res.json();
       setGameSession(data.sessionId);
+      setPlayerSession(data.playerId);
       fetchQuestions();
     } catch (err) {
       setError("Failed to start game.");
@@ -55,6 +57,7 @@ function App() {
         },
         body: JSON.stringify({
           sessionId: gameSession,
+          playerId: playerSession,
           questionId: currentQuestion.id, // field name is "id", not "questionId"
           answer: index,
         }),

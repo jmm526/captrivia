@@ -27,7 +27,7 @@ DB: Interact w/ db
 
 /services: business logic of application
 
-/transport: http server settings, handlers, ports, etc.
+/api: http server settings, handlers, ports, etc.
 
 ### /build folder
 
